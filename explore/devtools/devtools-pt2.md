@@ -1,0 +1,2 @@
+1. The bug is the unexpected type of the input for the function `calculateSum`. The function expects two numbers as parameters, but the input are two strings.
+2. To fix the bug, the input should be converted to numbers before passing them to the function.
