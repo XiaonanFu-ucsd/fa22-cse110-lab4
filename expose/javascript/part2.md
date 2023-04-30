@@ -35,6 +35,6 @@
 14e. False, because `true` is converted to `1` and is not equal to `1`.  
 14f. True, because `Boolean(2)` is `true`, they are strictly equal.  
 
-15. `==` is a loose equality operator, and it will convert the operands to the same type before comparing them. `===` is a strict equality operator, hence it will not convert the operands to the same type before comparing them. 
-17. This function will return the array `[2, 4, 6]`. The function copy the parameter array, and apply the function `doSomething` to each element in the copied array. The function `doSomething` will multiply the element by 2 and return the result. The function `modifyArray` will return the modified array. 
-19. The above code will print `1 4 3 2` in the console. First the print statement in the function scope will run. The function also pushes two macro tasks to the task queue, and they will run at the specific time. 
+15. `==` is a loose equality operator, and it will convert the operands to the same type before comparing them. `===` is a strict equality operator, hence it will not convert the operands to the same type before comparing them.    
+q17. This function will return the array `[2, 4, 6]`. The function copy the parameter array, and apply the function `doSomething` to each element in the copied array. The function `doSomething` will multiply the element by 2 and return the result. The function `modifyArray` will return the modified array.    
+q19. The above code will print `1 4 3 2` in the console. First the print statement in the function scope will run. The function also pushes two macro tasks to the task queue, and they will run at the specific time. 
